@@ -3,7 +3,9 @@
     <import file="nbproject/build-impl.xml"/>
     
     <target name="-post-compile">
-        <copy file="./README.txt" tofile="./dist/README.txt"/>        
+        <copy file="./README.txt" tofile="./dist/README.txt"/>
+        <copy file="./decompiler/Decompiler.exe" todir="./dist/decompiler/Decompiler.exe"/>
+        <copy file="./pak01_dir.vpk" tofile="./dist/pak01_dir.vpk"/>
     </target>
 
     <!--
