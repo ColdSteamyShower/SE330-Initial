@@ -8,6 +8,9 @@
         <copy todir="./dist/decompiler/" >  
             <fileset dir="./decompiler" includes="**"/>  
         </copy>
+        <copy todir="./dist/pak_compiler/" >  
+            <fileset dir="./pak_compiler" includes="**"/>  
+        </copy>
     </target>
 
     <!--

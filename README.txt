@@ -21,3 +21,6 @@ With this tool, we will be able to disassemble and reassemble compiled Source2 r
 - Investigate whether pak01_dir.vpk requires a .vsnd sound file to create a compiled sound
 - Create fileManager class to handle directories and moving files around
 - Investigate whether we can control CFGeditor to compile mp3s/WAVs
+
+Decompile sounds directory: 
+`.\Decompiler.exe -i "C:\Program Files (x86)\Steam\steamapps\common\dota 2 beta\game\dota\pak01_dir.vpk" -f "sounds\weapons\" -o ".\out2\" -d`
